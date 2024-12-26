@@ -1,20 +1,14 @@
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-	background-color: ${({ color }) => color};
-	color: white;
-	border: none;
-	padding: 0.5rem;
-
-	@media screen and (width>768px) {
-		display: block;
-	}
-
-	@media (hover: hover) {
-		&:hover {
-			scale: 0.8;
-		}
-	}
+    width: 160px;
+    height: 44px;
+    padding-inline: 44px;
+    border: 1px solid var(--light-brown);
+    border-radius: 100px;
+    font-family: inherit;
+    font-weight: 600;
 `;
 
 export { StyledButton };
+
